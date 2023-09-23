@@ -15,7 +15,7 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
 
-                <script src="scripts/server.js" defer></script>
+                
                 <script src="scripts/script.js" defer></script>
                 
 </head>
@@ -61,7 +61,7 @@
 
                     </div>
                     <div class="colx-12 col-md-6">
-                      <img href="#" src="images/Reg-bis.jpg" alt="Regile" class="w-100">
+                      <img href="#" src="Images/Reg-bis (2).jpg" alt="Regile" class="w-100">
                     </div>
                 </div>
 
@@ -176,7 +176,7 @@
                         </div>
 
                         <div class="col-12 offset-md-1 col-md-4">
-                            <img src="images/app.jpg" alt="écran montrant du code php" width="100%">
+                            <img src="Images/app.jpg" alt="écran montrant du code php" width="100%">
                           </div>
                         </div>
                     
@@ -184,7 +184,7 @@
 
                          <div class="row gy-4 mt-4">
                             <div class="col-12 col-md-4">
-                              <img src="images/charte-graphik.jpg" alt="écran montrant des designs" width="100%">
+                              <img src="Images/charte-graphik.jpg" alt="écran montrant des designs" width="100%">
                             </div>
                             <div class="col-12 order-first offset-md-1 col-md-7 order-md-last">
                   
@@ -340,7 +340,7 @@
                      <!-- projet1 -->
                      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="card">
-                            <img src="images/charte-graphik.jpg" class="card-img-top" alt="...">
+                            <img src="Images/charte-graphik.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Helloanalytic</h5>
                                 <p class="card-text">Helloanalytic est une agence de conception digitale pour les professionnel.</p>
@@ -360,7 +360,7 @@
                                          data-bs-ride="carousel" data-bs-touch="true">
                                         <div class="carousel-inner h-100">
                                             <div class="carousel-item h-100 active" data-bs-interval="10000">
-                                                <img src="images/app.jpg"
+                                                <img src="Images/app.jpg"
                                                      class="d-block w-100" alt="Image slide 1">
                                                 <div class="carousel-caption d-none d-md-block">
                                                     <h5>Helloanalytic 1</h5>
@@ -467,7 +467,7 @@
         
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="card">
-                            <img src="images/mon-coursier.png" class="card-img-top" alt="...">
+                            <img src="Images/mon-coursier.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Mon coursier</h5>
                                 <p class="card-text">Mon coursier un service de coursier en ligne pour les salaries du secteur prive.</p>
@@ -534,7 +534,7 @@
                     <!-- projet4 -->
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="card">
-                            <img src="images/mon-coursier.png" class="card-img-top" alt="...">
+                            <img src="Images/mon-coursier.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Mon coursier</h5>
                                 <p class="card-text">Mon coursier un service de coursier en ligne pour les salaries du secteur prive.</p>
@@ -607,19 +607,15 @@
 
                 <div class="row gy-4 mt-4">
                     <div class="col-12 col-md-5">
-                        <img src="images/cafe-noir.jpg" alt="Image d'une tasse de café" width="100%">
+                        <img src="Images/cafe-noir.jpg" alt="Image d'une tasse de café" width="100%">
                     </div>
                     <div class="col-12 offset-md-1 col-md-6">
 
                         <!-- Formulaire -->
-                        <form class="row" method="post" action="api/users" >
-                            <div class="col-6 my-2">
+                        <form  >
+                            <div class="col-12 my-2">
                                 <label for="firstname" class="form-label">Nom</label>
                                 <input name="Nom" type="text" class="form-control" id="firstname">
-                            </div>
-                            <div class="col-6 my-2">
-                                <label for="name" class="form-label">Prenom</label>
-                                <input name="Prenom" type="text" class="form-control" id="name">
                             </div>
                             <div class="col-12 my-2">
                                 <label for="Email" class="form-label">Email</label>
@@ -632,6 +628,11 @@
                             <div class="col-12 my-2">
                                 <button type="submit" class="btn btn-primary w-100">Envoyer</button>
                             </div>
+                            <div class="popup">
+                                <span id="erreurMessage"></span>
+                            </div>
+
+
                         </form>
 
                     </div>
@@ -697,6 +698,8 @@
     </main>
 
    <script>
+    
+ 
     // partie a propos
 
     var subSexions = document.getElementsByClassName('sub-sexion');
@@ -741,6 +744,7 @@
 
     }
         
+   
    
    </script>
 
