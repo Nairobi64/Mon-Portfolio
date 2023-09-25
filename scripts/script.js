@@ -1,7 +1,7 @@
 // Afficher l'email
 
-function afficherEmail(nom, email, Message) {
-  let mailto = `mailto:${email}?${firstname} ${Message} `
+function afficherEmail(firstname, Email, Message) {
+  let mailto = `mailto:${Email}?subject=Message${firstname} ${Message} `
   location.href = mailto
 }
 
