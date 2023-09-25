@@ -1,8 +1,18 @@
 // Afficher l'email
 
 function afficherEmail(firstname, Email, Message) {
-  let mailto = `mailto:${Email}?subject=Message${firstname} ${Message} `
+  let mailto = `mailto:${Email}?subject=Message${firstname}&body${Message} `
   location.href = mailto
+}
+
+function afficherResultat(Message) {
+  // Récupération de la zone dans laquelle on va écrire le score
+  let Messagerie = document.getElementById("Message")
+  // Ecriture du texte
+  let affichageMessage = `${Message}` 
+  // On place le texte à l'intérieur du span. 
+  Messagerie.innerText = affichageMessage
+  
 }
 
 
@@ -20,8 +30,10 @@ form.addEventListener('submit', (event) => {
 
     let BaliseMessage = document.getElementById('Message')
     let UserMessage = BaliseMessage.value
-
+   
+    
     afficherEmail(firstname, Email, Message)
+
 
     // Vous pouvez faire d'autres opérations ici, comme envoyer les données via une requête AJAX, par exemple.
 });
