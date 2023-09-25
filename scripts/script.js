@@ -1,12 +1,12 @@
 // Afficher l'email
 
 function afficherEmail(firstname, Email, Message) {
-  let mailto = `mailto:${Email}?subject=Message&body=Salut, je suis ${firstname} et j'apprecie ce que tu fais ${Message}!`
+  let mailto = `mailto:${userEmail}?subject=Message&body=Salut, je suis ${firstname} et j'apprecie ce que tu fais ${userMessage}!`
   location.href = mailto
 }
 
 function afficherResultat(Message) {
-  // Récupération de la zone dans laquelle on va écrire le score
+  // Récupération de la zone dans laquelle on va écrire le message
   let Messagerie = document.getElementById("Message")
   // Ecriture du texte
   let affichageMessage = `${Message}` 
