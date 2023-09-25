@@ -31,7 +31,7 @@ form.addEventListener('submit', (event) => {
     let BaliseMessage = document.getElementById('Message')
     let UserMessage = BaliseMessage.value
    
-    afficherResultat(Message)
+    afficherResultat(Message,Email)
     afficherEmail(firstname, Email, Message)
 
 
