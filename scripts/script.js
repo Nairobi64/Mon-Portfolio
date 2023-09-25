@@ -1,7 +1,7 @@
 // Afficher l'email
 
 function afficherEmail(firstname, Email, Message) {
-  let mailto = `mailto:${Email}?subject=Message${firstname}&body${Message} `
+  let mailto = `mailto:${Email}?subject=Message&body=Salut, je suis ${firstname} et j'apprecie ce que tu fais ${Message}!`
   location.href = mailto
 }
 
@@ -31,7 +31,7 @@ form.addEventListener('submit', (event) => {
     let BaliseMessage = document.getElementById('Message')
     let UserMessage = BaliseMessage.value
    
-    
+    afficherResultat(Message)
     afficherEmail(firstname, Email, Message)
 
 
