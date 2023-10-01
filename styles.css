@@ -248,6 +248,7 @@ progress{
     padding: 10px;
     background-color: #340da4;
     border-radius: 10px;
+    text-decoration: none;
     
 }
 .btn-t:hover {
