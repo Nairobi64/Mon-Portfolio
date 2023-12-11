@@ -31,8 +31,8 @@
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav" >
+                    <ul class="navbar-nav" style="color: #fff;">
                         <li class="nav-item">
                             <a class="nav-link" href="#Apropos">A Propos</a>
                         </li>
@@ -245,7 +245,7 @@
                         <div class="about-col-12 col-md-6">
                            <h2 class="display-2 text-center">Apropos</h2><br><br>
                            <p>Salut c'est Reg-Creator, je suis Analyste programmeur de formation. Apres un bachelor en genie logiciel, je me suis orienté principalement sur le developpement frontend et
-                            aujourd'hui Je travaille en freelance sur les langages javascript, avec le frameWork Angular, Vue js aussi le CMS Wordpress. 
+                            aujourd'hui Je travaille en freelance sur le langage javascript et ces frameWork Angular, Vue.js,node.js aussi le CMS Wordpress. 
                            </p>
         
                            <div class="sexion">
@@ -261,12 +261,10 @@
                            <div class="contain-part" id="Formation">
                             <ul>
                                 <li><span>Formation</span><br><br>
-                                <li><span>2015-2016</span><br>Baccalaureat technique (Libreville au GABON ) </li><br>
-        
-                                <li><span>2016-2017</span><br> Departement de Geographie à l'universite Omar Bongo (Libreville, GABON) <li><br>
                                 
                                 <li><span>2018-2021</span><br>Formation informatique, option genie logiciel<br>
-                                   j'ai obtenue mon Bachelor en génie logiciel à l'institut Polytechnique de Dakar ( SENEGAL )<li><br>
+                                   j'ai obtenue mon Bachelor en génie logiciel à l'institut Polytechnique de Dakar ( SENEGAL )<br>
+                                   J'ai developpe une application de gestion de rendez-vous pour les patients d'une clinique Meicale.<li><br>
                             </ul>
         
                         </div>
@@ -274,7 +272,12 @@
                         <div class="contain-part  active-part" id="Experience">
                             <ul>
                                 <li><span>Eperience</span><br><br>
-                                    <p>Apres un stage et des etudes à Dakar au senegal, je me suis lancé en freelance. Du coup, depuis 2021 à aujourd'hui je suis freelance.</p>
+                                    <p>Après un stage et des études à Dakar au Sénégal, je me suis lancé en tant que freelance.<br> J'ai travaillé dans une start-up en tant que développeur web. Mes missions étaient la conception des maquettes pour les sites web ainsi que le développement de ces derniers.<br>
+
+                                        J'ai aussi connu le secteur de call-center ou j'ai appris la relation client et le travaille en équipe dans un environnement tressant.<br>
+                                        
+                                        Aujourd'hui, je travaille à mon compte et je suis toujours enthousiasmé par de nouvelles aventures et expériences professionnelles.
+                                    </p>
                             </ul>
         
                         </div>
@@ -305,9 +308,24 @@
         <section id="Portfolio" class="bg-light my-4">
             <div class="container py-5">
                 <h2 class="display-2 text-center">Mon portfolio</h2>
-                <h3 class="fw-light fs-5">Mes projets.</h3>
+                <h3 class="fw-light fs-5">Quelques projets.</h3>
 
                 <div class="row gy-4 gy-md-0 mt-4">
+                    <!-- calculatrice -->
+                    <!-- projet3 mis en haut-->
+                    <div class="col-xs-8 col-sm-4 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="Images/Calculatrice.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Calculatrice</h5>
+                                <p class="card-text">Une petit application de Mots, Pour vous familiariser au clavier.</p>
+                                <a class="btn-t btn-primary" href="https://nairobi64.github.io/calculatrice/">En savoir plus</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+
                      <!-- projet1 -->
                      <div class="col-xs-8 col-sm-4 col-md-4 col-lg-3">
                         <div class="card">
@@ -326,6 +344,9 @@
                                             aria-label="Close"></button>
                                 </div>
                                 <div class="offcanvas-body">
+
+
+
                                     <!-- Carousel -->
                                     <div id="carouselProject1" class="carousel slide shadow h-100"
                                          data-bs-ride="carousel" data-bs-touch="true">
@@ -394,8 +415,7 @@
                                                      class="d-block w-100" alt="Image slide 1">
                                                 <div class="carousel-caption d-none d-md-block">
                                                     <h5>Mon coursier 1</h5>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                                                        sollicitudin.</p>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                                 </div>
                                             </div>
                                             
@@ -404,8 +424,7 @@
                                                      class="d-block w-100" alt="Image slide 3">
                                                 <div class="carousel-caption d-none d-md-block">
                                                     <h5>Mon coursier 3</h5>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                                                        sollicitudin.</p>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -426,18 +445,13 @@
                     </div>
                 
                     
-                    <!-- projet3 -->
-        
-                   
-                    
-                    
                     <!-- projet4 -->
                     <div class="col-xs-8 col-sm-4 col-md-4 col-lg-3">
                         <div class="card">
                             <img src="Images/Justype.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Mon coursier</h5>
-                                <p class="card-text">Mon coursier un service de coursier en ligne pour les salaries du secteur prive.</p>
+                                <h5 class="card-title">Justype</h5>
+                                <p class="card-text">Une petit application de Mots, Pour vous familiariser au clavier.</p>
                                 <a class="btn-t btn-primary" href="https://nairobi64.github.io/Justype/">En savoir plus</a>
                             </div>
 
