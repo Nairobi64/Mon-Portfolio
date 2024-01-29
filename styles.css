@@ -11,6 +11,7 @@
 }
 /* navigation */
 
+
 .navbar{
     background: #079580;
     display: flex;
@@ -20,6 +21,15 @@
     padding: 10px;
     
   }
+  img{
+    height: 250px;
+    width: 100%;
+  }
+  .card{
+    height: 450px;
+  }
+
+
   nav ul li {
     list-style: none;  
     display: inline-block; 
